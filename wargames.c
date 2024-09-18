@@ -13,6 +13,5 @@ int main (void) {
         }
     } while(strcmp(login, "Joshua") != 0);
 
-    printf("in");
-
+    printf("\033[1;36mGREETINGS PROFESSOR FALKEN.\033[0m\n");
 }
