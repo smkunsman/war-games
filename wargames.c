@@ -1,16 +1,18 @@
 #include <stdio.h>
-#include <string.h>>
+#include <string.h>
 
 int main (void) {  
+
     char login[30];
-    printf("Login: ");
-    scanf("%s", login);
+    do {
+        printf("Login: ");
+        scanf("%s", login);
+        
+        if (strcmp(login, "Joshua") != 0){
+            printf("Access Denied\n");
+        }
+    } while(strcmp(login, "Joshua") != 0);
 
-    do while (strcmp(login, "Joshua") != 0){
-        printf("Access Denied");
-    }
-
+    printf("in");
 
 }
-
-
