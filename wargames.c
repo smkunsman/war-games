@@ -32,6 +32,7 @@ int main (void) {
     // Leads into a new loop for response prompts
     // User sets up speaker as a plug in for 
     // the computer to ‘talk’ at this point
+    // could use Linux compatible, open source "festival" for text to speech 
     int plugInDevice[50];
 
     // New segment, wait for user’s input for
